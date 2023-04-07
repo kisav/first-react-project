@@ -3,16 +3,24 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import './css/index.css';
-import { Route, Link, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { About } from "./pages/About";
-import { notFound } from "./pages/notFound";
+import { NotFound } from "./pages/NotFound";
+import { Rickroll } from "./pages/rickroll";
+import { Bye } from "./pages/Bye";
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <Header />
-        <Main />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />}/>
+          <Route path="/why" element={<Rickroll />} />
+          <Route path="/bye" element={<Bye />} />
+        </Routes>
         <Footer />
       </div>
     );

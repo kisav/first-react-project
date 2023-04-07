@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Mynerve&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Golos+Text&family=Inconsolata:wght@600&family=Montserrat:wght@300;600&family=Mynerve&family=Roboto&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Golos+Text&family=Inconsolata:wght@600&family=Montserrat:wght@300;600&family=Mynerve&family=Noto+Sans:wght@300&family=Roboto&family=Roboto+Mono:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -24,6 +25,13 @@ h1  {
     width: 20%;
     height: 20%;
     float: left;
+    margin: 3px 12px 0px 0px;
+}
+
+#rickrollimg {
+    width: 40%;
+    height: 30%;
+    float: center;
     margin: 3px 12px 0px 0px;
 }
 
@@ -67,6 +75,7 @@ header a {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-size: large;
+    text-decoration: none;
 }
 
 ul {
@@ -75,4 +84,26 @@ ul {
 
 .header form {
     float: center;
+}
+
+.betterP {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mynerve', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 400;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 10px;
+    scale: 1.4;
+}
+
+#rickrollImage {
+    margin-left: 680px;
+    width: 25%;
+    height: 100%;
 }
